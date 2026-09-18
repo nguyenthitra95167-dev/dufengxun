@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+    <defs>
+        <linearGradient id="decoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#5b8def" stop-opacity="0.3"/>
+            <stop offset="50%" stop-color="#4fc3f7" stop-opacity="0.2"/>
+            <stop offset="100%" stop-color="#8b7fd8" stop-opacity="0.3"/>
+        </linearGradient>
+    </defs>
+    <g stroke="url(#decoGrad)" stroke-width="0.5" fill="none">
+        <circle cx="300" cy="300" r="100"/>
+        <circle cx="300" cy="300" r="160"/>
+        <circle cx="300" cy="300" r="220"/>
+        <circle cx="300" cy="300" r="280"/>
+    </g>
+    <g fill="#5b8def">
+        <circle cx="300" cy="20" r="3" opacity="0.8"/>
+        <circle cx="300" cy="580" r="3" opacity="0.8"/>
+        <circle cx="20" cy="300" r="3" opacity="0.8"/>
+        <circle cx="580" cy="300" r="3" opacity="0.8"/>
+        <circle cx="124" cy="124" r="3" opacity="0.5"/>
+        <circle cx="476" cy="124" r="3" opacity="0.5"/>
+        <circle cx="124" cy="476" r="3" opacity="0.5"/>
+        <circle cx="476" cy="476" r="3" opacity="0.5"/>
+    </g>
+    <g stroke="#5b8def" stroke-width="1" fill="none" opacity="0.4">
+        <line x1="300" y1="20" x2="300" y2="580"/>
+        <line x1="20" y1="300" x2="580" y2="300"/>
+    </g>
+</svg>

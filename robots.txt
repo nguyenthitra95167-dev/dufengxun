@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /pages/
+
+# Allow all major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Sitemap
+Sitemap: https://dufengxun.com/sitemap.xml
+
+# Crawl-delay (1 second is polite)
+Crawl-delay: 1

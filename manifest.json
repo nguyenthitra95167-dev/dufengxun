@@ -1,0 +1,53 @@
+{
+    "name": "Dufengxun — Privacy-First Local Tools Studio",
+    "short_name": "Dufengxun",
+    "description": "Independent product studio building privacy-first, design-led mobile utilities for iOS and Android.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#0a0e1a",
+    "theme_color": "#0a0e1a",
+    "orientation": "portrait-primary",
+    "lang": "en-US",
+    "categories": ["business", "productivity", "lifestyle"],
+    "icons": [
+        {
+            "src": "/images/og-icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Services",
+            "short_name": "Services",
+            "url": "/services.html",
+            "description": "App development & consulting services"
+        },
+        {
+            "name": "Contact",
+            "short_name": "Contact",
+            "url": "/contact.html",
+            "description": "Get in touch with the studio"
+        },
+        {
+            "name": "Insights",
+            "short_name": "Insights",
+            "url": "/insights.html",
+            "description": "Read essays from the studio"
+        }
+    ]
+}
